@@ -8,6 +8,8 @@
   --white-75-clr: rgba(255, 255, 255, 0.75);
   --dark-75-clr: rgba(33, 37, 41, 0.75);
   --dark-50-clr: rgba(33, 37, 41, 0.5);
+
+  --content-container-width: 1180px;
 }
 
 * {
@@ -44,7 +46,7 @@ button {
 
 .content-container {
   width: 100%;
-  max-width: 1180px;
+  max-width: var(--content-container-width);
 }
 
 .btn-container button {
@@ -100,7 +102,7 @@ button {
 
 .global-container header .header-container {
   width: 100%;
-  max-width: 1175px;
+  max-width: var(--content-container-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,7 +144,7 @@ button {
 
 .global-container footer .footer-container {
   width: 100%;
-  max-width: 1175px;
+  max-width: var(--content-container-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
