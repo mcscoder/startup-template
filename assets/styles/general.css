@@ -41,7 +41,8 @@ button {
 .container {
   display: flex;
   justify-content: center;
-  padding: 0 1rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .content-container {
@@ -60,7 +61,7 @@ button {
 
 .heading {
   font-family: var(--crim-son-ff);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
 }
@@ -162,4 +163,18 @@ button {
 
 .global-container footer .footer-container .content-2 .sub-heading {
   color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+      --content-container-width: 940px;
+    }
+
+    .heading {
+      font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  
 }

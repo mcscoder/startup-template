@@ -9,6 +9,18 @@
   gap: 30px 120px;
 }
 
+.home .introduce-section .content-1 {
+  flex: 1;
+}
+
+.home .introduce-section .content-2 {
+  flex: 1.5;
+}
+
+.home .introduce-section .content-2 img {
+  width: 100%;
+}
+
 .home .content-container .content-1 {
   display: flex;
   flex-direction: column;
@@ -70,7 +82,12 @@
 .home .container-2 .content-container .content-2 {
   width: 100%;
   justify-content: space-between;
-  gap: 40px 0;
+  gap: 40px;
+}
+
+.home .container-2 .content-container .content-2 .com-logo-container img {
+  width: 100%;
+  display: flex;
 }
 
 .home .container-2 .content-container .btn-container button {
@@ -147,7 +164,7 @@
 .home .container-5 .content-container .content-2 {
   width: 100%;
   justify-content: space-between;
-  gap: 35px 0;
+  gap: 35px;
 }
 
 .home .container-5 .content-container .content-2 .profile-container-1 {
@@ -160,6 +177,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px 0;
+  height: 100%;
 }
 
 .home
@@ -167,8 +185,10 @@
   .content-container
   .content-2
   .profile-container-2
-  .profile-img {
+  .profile-img
+  img {
   display: flex;
+  width: 100%;
 }
 
 .home
@@ -180,6 +200,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px 0;
+  flex: 1;
 }
 
 .home
@@ -190,9 +211,10 @@
   .profile-text
   .name {
   font-family: var(--crim-son-ff);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.25;
+  flex: 1;
 }
 
 .home
@@ -210,6 +232,13 @@
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .home .container-5 .content-container .btn-container button:hover {
   background-color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+  .home .introduce-section {
+    gap: 30px 50px;
+  }
 }
