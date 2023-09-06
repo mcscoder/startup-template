@@ -92,7 +92,7 @@ button {
 
 .global-container header {
   padding: 35px 0;
-  position: absolute; /* fixed */ 
+  position: absolute; /* fixed */
   top: 0;
   left: 0;
   right: 0;
@@ -166,15 +166,21 @@ button {
 }
 
 @media screen and (max-width: 1200px) {
-    :root {
-      --content-container-width: 940px;
-    }
+  :root {
+    --content-container-width: 940px;
+  }
 
-    .heading {
-      font-size: 2rem;
-    }
+  .heading {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  
+  :root {
+    --content-container-width: 740px;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+  }
 }

@@ -81,13 +81,18 @@
 
 .home .container-2 .content-container .content-2 {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
+}
+
+.home .container-2 .content-container .content-2 .com-logo-container {
+  display: flex;
+  justify-content: center;
 }
 
 .home .container-2 .content-container .content-2 .com-logo-container img {
   width: 100%;
-  display: flex;
 }
 
 .home .container-2 .content-container .btn-container button {
@@ -240,5 +245,35 @@
 @media screen and (max-width: 1200px) {
   .home .introduce-section {
     gap: 30px 50px;
+  }
+
+  .home .container-2 .content-container .content-2 .com-logo-container img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home .container-5 .content-container .content-2 .profile-container-1 {
+    padding: 20px;
+  }
+
+  .home
+    .container-5
+    .content-container
+    .content-2
+    .profile-container-2
+    .profile-text
+    .name {
+    font-size: 1.25rem;
+  }
+
+  .home
+    .container-5
+    .content-container
+    .content-2
+    .profile-container-2
+    .profile-text
+    .position {
+    font-size: 0.75rem;
   }
 }
