@@ -1,0 +1,152 @@
+.service .container-1 {
+  margin-top: 50px;
+}
+
+.service .container-1 .content-container {
+  flex-direction: column;
+  gap: 70px;
+}
+
+.service .container-1 .content-container .content-1 .label {
+  color: var(--green-100-clr);
+}
+
+.service .container-1 .content-container .content-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 60px;
+}
+
+.service .container-1 .content-container .content-2 .plan-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 45px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .description-container {
+  text-align: center;
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .description-container
+  .plan-fee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .description-container
+  .plan-fee
+  .fee {
+  font-family: var(--work-sans-ff);
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .description-container
+  .plan-fee
+  .duration,
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .description-container
+  .description {
+  color: var(--dark-50-clr);
+}
+
+.service .container-1 .content-container .content-2 .plan-container .features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .features
+  .feature-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .features
+  i {
+  font-size: 1.25rem;
+  color: var(--green-100-clr);
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .btn-container
+  button {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.service
+  .container-1
+  .content-container
+  .content-2
+  .plan-container
+  .btn-container
+  button:hover {
+  background-color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .service .container-1 .content-container .content-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service .container-1 .content-container .content-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
