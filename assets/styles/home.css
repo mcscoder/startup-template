@@ -279,4 +279,7 @@
 }
 
 @media screen and (max-width: 568px) {
+  .home .container-5 .content-container .content-2 .profile-container-1 {
+    width: 80%;
+  }
 }
