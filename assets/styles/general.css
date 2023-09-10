@@ -221,7 +221,7 @@ footer .footer-container .content-2 .sub-heading {
 
 @media screen and (max-width: 768px) {
   :root {
-    --content-container-width: 500px;
+    --content-container-width: 90%;
   }
 
   header .header-container .navbar-toggle-btn {
@@ -251,4 +251,10 @@ footer .footer-container .content-2 .sub-heading {
 }
 
 @media screen and (max-width: 568px) {
+  footer .footer-container .content-1 a {
+    padding: 2px;
+  }
+  footer .footer-container .content-2 .sub-heading {
+    font-size: 15px;
+  }
 }
