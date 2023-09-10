@@ -108,7 +108,7 @@ button {
 
 /* Header */
 
-.global-container header {
+header {
   position: fixed; /* fixed */
   top: 0;
   left: 0;
@@ -118,7 +118,7 @@ button {
   box-shadow: 0px 4px 8px rgba(0, 12, 43, 0.05);
 }
 
-.global-container header .header-container {
+header .header-container {
   width: 100%;
   max-width: var(--content-container-width);
   display: flex;
@@ -127,7 +127,7 @@ button {
   position: relative;
 }
 
-.global-container header .header-container .left h1 {
+header .header-container h1 {
   display: flex;
   align-items: center;
   color: #fff;
@@ -136,37 +136,37 @@ button {
   font-weight: 500;
 }
 
-.global-container header .header-container .left h1 img {
+header .header-container h1 img {
   height: 32px;
 }
 
-.global-container header .header-container .left h1 span {
+header .header-container h1 span {
   margin-left: 18px;
 }
 
-.global-container header .header-container .right .navbar-toggle-btn {
+header .header-container .navbar-toggle-btn {
   display: none;
   color: #fff;
   font-size: 1.5rem;
 }
 
-.global-container header .header-container .right .navbar-toggle-btn i {
+header .header-container .navbar-toggle-btn i {
   display: none;
 }
 
-.global-container header .header-container .right nav {
+header .header-container nav {
   display: flex;
   gap: 30px;
 }
 
-.global-container header .header-container .right nav a {
+header .header-container nav a {
   color: #fff;
   font-size: 20px;
 }
 
 /* Footer */
 
-.global-container footer {
+footer {
   height: 80px;
   position: absolute;
   bottom: 0;
@@ -176,7 +176,7 @@ button {
   box-shadow: 0px -4px 8px rgba(0, 12, 43, 0.1);
 }
 
-.global-container footer .footer-container {
+footer .footer-container {
   width: 100%;
   max-width: var(--content-container-width);
   display: flex;
@@ -185,17 +185,17 @@ button {
   padding: 0.75rem 0;
 }
 
-.global-container footer .footer-container .content-1 {
+footer .footer-container .content-1 {
   display: flex;
   gap: 0 20px;
 }
 
-.global-container footer .footer-container .content-1 a {
+footer .footer-container .content-1 a {
   display: flex;
   padding: 5px;
 }
 
-.global-container footer .footer-container .content-2 .sub-heading {
+footer .footer-container .content-2 .sub-heading {
   color: #fff;
 }
 
@@ -224,11 +224,11 @@ button {
     --content-container-width: 500px;
   }
 
-  .global-container header .header-container .right .navbar-toggle-btn {
+  header .header-container .navbar-toggle-btn {
     display: block;
   }
 
-  .global-container header .header-container .right nav {
+  header .header-container nav {
     position: fixed;
     top: 80px;
     left: 0;
@@ -241,11 +241,11 @@ button {
     display: none;
   }
 
-  .global-container footer {
+  footer {
     height: 90px;
   }
 
-  .global-container footer .footer-container {
+  footer .footer-container {
     flex-direction: column;
   }
 }

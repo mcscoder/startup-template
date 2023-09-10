@@ -59,10 +59,6 @@
   flex: 1.5;
 }
 
-.contact .container-1 .content-container .content-2 .map img {
-  width: 100%;
-}
-
 @media screen and (max-width: 1024px) {
   .contact .container-1 .content-container .content-2 {
     flex-direction: column-reverse;
